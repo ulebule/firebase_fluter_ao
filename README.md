@@ -21,9 +21,13 @@ samples, guidance on mobile development, and a full API reference.
 
 Go to https://console.firebase.google.com/
 Create a Firebase project
+
 Open created project
+
 Add Flutter app
+
 Follow the instructions for install and run FlutterFire CLI
 
-Note: if you want to add Google provider you need also to crate SHA1, for example
+Note: if you want to add Google provider you need also to crate SHA1, for example:
+
 keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android
